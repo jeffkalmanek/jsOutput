@@ -1,18 +1,48 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<script>
+		function myFunction(a, b) {
+			return a * b;
+		}
+		function displaySomething() {
+			document.getElementById('demo').innerHTML = 
+			"Display Something New";
+		}
+		var person = {
+			firstName: "John",
+			lastName : "Doe",
+			id       : 5566,
+			displayName : function() {
+				document.getElementById("name").innerHTML = "My full name is " + this.firstName + " " + this.lastName;
+			}
+		};
+	</script>
+
+</head>
 <body>
 
-<h1>My First Web Page</h1>
-<p>My First Paragraph, not sure why the rest won't show up</p>
+	<h1>My First Web Page</h1>
+	<h2>this is one person from the object person</h2>
+	<p id="name">my full name is fullName()</p>
+	<p>My First Paragraph, not sure why the rest won't show up</p>
 
-<p id="demo"></p>
+	<p id="demo"></p>
 
-<p>Never call document.write after the document has finished loading.  It will overwrite the whole document.  But I am calling it to write "11" and the rest of the document is here</p>
+	<p>try a button</p>
+	<button type="button" onclick="displaySomething()">Try it</button>
+	<p>clicking the button does erase the rest of the document, then writes just 11, which is from the document.write below</p>
 
-<script>
-document.getElementById("demo").innerHTML = 7 + 6;
-document.write(5 + 6);
-</script>
-<p>this is a paragraph afer document.write, looks like it just adds the number in between two paragraphs?</p>
+	<p>Never call document.write after the document has finished loading.  It will overwrite the whole document.  But I am calling it to write "11" and the rest of the document is here</p>
+
+	<script>
+		person.displayName();
+		// var x = true;
+		// document.getElementById("demo").innerHTML = x;
+		// // document.write(5 + 6);
+		// window.alert("this is an alert");
+		// console.log(x+6);
+	</script>
+	<p>this is a paragraph afer document.write, looks like it just adds the number in between two paragraphs?</p>
 </body>
 </html>
