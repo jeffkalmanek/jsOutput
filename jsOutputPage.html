@@ -7,13 +7,12 @@
 
 <p id="demo"></p>
 
-<p>Never call document.write after the document has finished loading.
-It will overwrite the whole document.</p>
+<p>Never call document.write after the document has finished loading.  It will overwrite the whole document.  But I am calling it to write "11" and the rest of the document is here</p>
 
 <script>
 document.getElementById("demo").innerHTML = 7 + 6;
 document.write(5 + 6);
 </script>
-
+<p>this is a paragraph afer document.write, looks like it just adds the number in between two paragraphs?</p>
 </body>
 </html>
