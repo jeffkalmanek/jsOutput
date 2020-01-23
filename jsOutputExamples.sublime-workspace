@@ -1,0 +1,335 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"di",
+				"div\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n<body>\n\n<h1>My First Web Page</h1>\n<p>My First Paragraph</p>\n\n<p id=\"demo\"></p>\n\n<script>\ndocument.getElementById(\"demo\").innerHTML = 5 + 6;\n</script>\n\n</body>\n</html>\n",
+			"settings":
+			{
+				"buffer_size": 191,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"indent",
+				"Auto indent"
+			],
+			[
+				"in",
+				"Snippet: XML Processing Instruction"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 124.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Jeff Kalmanek/Documents/Webpages/repositoryOne/changeImage/bulbOnBulbOff.html",
+		"/C/Users/Jeff Kalmanek/AppData/Roaming/Sublime Merge/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Jeff Kalmanek/Documents/Webpages/jefK first html.html",
+		"/C/Users/Jeff Kalmanek/Documents/Webpages/repositoryOne/Project_1/css/main.css",
+		"/C/Users/Jeff Kalmanek/Documents/Webpages/repositoryOne/Project_1/index.html",
+		"/C/Users/Jeff Kalmanek/Documents/Webpages/repositoryOne/Project_1/README.md",
+		"/C/Users/Jeff Kalmanek/Documents/Webpages/bulbOnBulbOff.html",
+		"/C/Users/Jeff Kalmanek/AppData/Roaming/Sublime Merge/Packages/User/Commit Message.sublime-settings",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/lg messaging application not working",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/tests pass if method is defined for cucumber step",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/tests in cucumber are ingored if not implemented i",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/LGv40 menu button/failed tests because they cannot click on Menu but",
+		"/C/Users/Jeff Kalmanek/Documents/Mobile Security/Account page mobile security lgv40.xml",
+		"/C/Users/Jeff Kalmanek/Documents/Mobile Security/lock plus features popup.xml",
+		"/C/Users/Jeff Kalmanek/Documents/Mobile Security/change service page - Plus user.xml",
+		"/C/Users/Jeff Kalmanek/Documents/Mobile Security/Account page subscribed to Plus.xml",
+		"/C/Users/Jeff Kalmanek/Documents/Mobile Security/Lock screen page samsung.xml",
+		"/C/Users/Jeff Kalmanek/Documents/xpaths/com.android.settings/result from 'screen lock' search in settings.xml",
+		"/C/Users/Jeff Kalmanek/Documents/xpaths/com.android.settings/settings home page",
+		"/C/Users/Jeff Kalmanek/Documents/Mobile Security/sorry having trouble popup in personal ID monitor.xml",
+		"/C/Users/Jeff Kalmanek/Documents/Mobile Security/setup personal ID monitor page.xml",
+		"/C/Users/Jeff Kalmanek/Documents/Mobile Security/permission to take video popup after theft alert.xml",
+		"/C/Users/Jeff Kalmanek/Documents/Mobile Security/camera permission for theft alert.xml",
+		"/C/Users/Jeff Kalmanek/Documents/Quantum Starter Kit documentation.txt",
+		"/C/Users/Jeff Kalmanek/Documents/isPresent tests/find element does not result in ID",
+		"/C/Users/Jeff Kalmanek/Documents/Call Protect/LG G8thinQ conversation list page messaging.xml",
+		"/C/Users/Jeff Kalmanek/Documents/LG v40 account settings page.xml",
+		"/C/Users/Jeff Kalmanek/Documents/Call Protect/Samsung S8 messaging list of converstations.xml",
+		"/C/Users/Jeff Kalmanek/Documents/raw example.xml",
+		"/C/Users/Jeff Kalmanek/Documents/Call Protect/LG v40 messaging conversation list.xml",
+		"/C/Users/Jeff Kalmanek/Documents/Call Protect/Call Protect and Mobile Security Conrim Remove pop.xml",
+		"/C/Users/Jeff Kalmanek/Documents/samsung home page menu icon prob mobile security.xml",
+		"/C/Users/Jeff Kalmanek/Documents/LG v40 Mobile Security main manu button.xml",
+		"/C/Users/Jeff Kalmanek/Documents/Call Protect/Change Service Page Call Protect Samsung N950 - S8.xml",
+		"/C/Users/Jeff Kalmanek/Documents/Call Protect/Call log with calls LG G8thinQ.xml",
+		"/C/Users/Jeff Kalmanek/Documents/Mobile Security/Mobile Security Device Security Page.xml",
+		"/C/Users/Jeff Kalmanek/Documents/Mobile Security/Android Overlay Permissions Page top.xml",
+		"/C/Users/Jeff Kalmanek/Documents/Mobile Security/Mobile Security Disable Screen Overlays Popup.xml",
+		"/C/Users/Jeff Kalmanek/Documents/scratch page",
+		"/C/Users/Jeff Kalmanek/Documents/Call Protect system error popup.xml",
+		"/C/Users/Jeff Kalmanek/Documents/LG G8thinQ Conversations page messaging app.xml",
+		"/C/Users/Jeff Kalmanek/Documents/LG v40 list of conversations messaging app.xml",
+		"/C/Users/Jeff Kalmanek/Documents/Samsung S9 Home screen Android OS 9.xml",
+		"/C/Users/Jeff Kalmanek/Documents/Samsung S9 Dialer Main screen Android OS 9.xml",
+		"/C/Users/Jeff Kalmanek/Documents/Samsung S9 Dialer Recents with calls in log Androi.xml",
+		"/C/Users/Jeff Kalmanek/Documents/Samsung S9 Dialer delete call logs selected screen Android OS 9.xml",
+		"/C/Users/Jeff Kalmanek/Documents/terminal log from test run with all flavors.xml",
+		"/C/Users/Jeff Kalmanek/Documents/terminal log from test run with one flavor",
+		"/C/Users/Jeff Kalmanek/Documents/network protection learn more page menu icon probl.xml",
+		"/C/Users/Jeff Kalmanek/Documents/device security apps tab menu icon problem.xml",
+		"/C/Users/Jeff Kalmanek/Documents/Call Protect/example report with two styles of BDD layer",
+		"/C/Users/Jeff Kalmanek/Documents/Call Protect/Call Protect call log after calls Samsung S9.xml",
+		"/C/Users/Jeff Kalmanek/Documents/Call Protect/Dialer call log after calls Samsung S9.xml",
+		"/C/Users/Jeff Kalmanek/Documents/Call Protect/dialer recents_callLog Samsung note9 list of calls.xml",
+		"/C/Users/Jeff Kalmanek/Documents/Call Protect/dialer recents-callLog more options popup samsung.xml",
+		"/C/Users/Jeff Kalmanek/Documents/Call Protect/dialer recents-callLog delete select options.xml",
+		"/C/Users/Jeff Kalmanek/Documents/Call Protect/dialer app LG dial tab popup for video call.xml",
+		"/C/Users/Jeff Kalmanek/Documents/Call Protect/dialer app dialer tab LG.xml",
+		"/C/Users/Jeff Kalmanek/Documents/Call Protect/contacts app LG call log tab page.xml",
+		"/C/Users/Jeff Kalmanek/Documents/Call Protect/dialer samsung video call offer popup.xml",
+		"/C/Users/Jeff Kalmanek/Documents/Call Protect/dialer app samsung video call intro popup.xml",
+		"/C/Users/Jeff Kalmanek/Documents/Call Protect/example of local batch run mixed up devices",
+		"/C/Users/Jeff Kalmanek/Documents/Call Protect/Call Protect Call Log page Samsung J2 with calls.xml",
+		"/C/Users/Jeff Kalmanek/Documents/Call Protect/CallProtect Call Log page Samsung J2 no calls.xml",
+		"/C/Users/Jeff Kalmanek/Documents/Mobile Security/Mobile Security Home Page.xml",
+		"/C/Users/Jeff Kalmanek/Documents/Mobile Security/Mobile Security Popup removing service for both.xml",
+		"/C/Users/Jeff Kalmanek/Documents/Samsung S8 messaging list of converstations",
+		"/C/Users/Jeff Kalmanek/Documents/isPresent tests/false positive on isPresent method",
+		"/C/Users/Jeff Kalmanek/Documents/isPresent tests/the isPresent method true positive",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/clean and launch of messages crashes after drive m",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/next button post fix/failed playstore ID next button after restart",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/next button post fix/failed playstore id next button scenario level cap",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/next button post fix/failed at playstore id next button step test case",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/next button post fix/playstore didn't configure",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/LG G8thinQ issue reading messaging application",
+		"/C/Users/Jeff Kalmanek/Documents/failure after step turning off Wifi",
+		"/C/Users/Jeff Kalmanek/Documents/reboot device fails for LGv40",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/next button post fix/driver getKeyboard didn't work password field bloc",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/design sketching",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/timed test run with a restart device all fails",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/timed test run before restart device",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/cannot click on no thanks but finds no thanks.txt",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/First test of ProTech is all fails on Dev S9",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/cannot find Application Title by @text=",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/cradle and object spy issue 191003",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/step just doesn't execute for Call Protect 191002",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/failure 2 of Install app from playstore",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/failure of install app AT&T Call Protect",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/AT&T Call Protect not found",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/then location must exist broken",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/the I must see method results in ignored report 191004",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/i must see fail 3",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/i must see fail 2",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/I must see fail 1",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/Wifi Elements misc",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/Ignore test issue at step opening gmail applicatio",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/Grabb too much BDD/grabbing too much of the BDD string when two input",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/Grabb too much BDD/added more sysout lines, still not executing",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/Grabb too much BDD/changing the BDD line in Java and updating feature",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/UET find issue/found UET instead of UET-Automation",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/get by url/code snippet, don't remember context",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/UET find issue/hit this ignore error when I tried escaping the do",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/get by url/get by url is not supported",
+		"/C/Users/Jeff Kalmanek/Documents/Test Cases/ATTCallProtect/latest test run failing at the spot where the Next 190926 1543PDT",
+		"/C/Users/Jeff Kalmanek/Documents/Defect Logs/Playstore failure",
+		"/C/Users/Jeff Kalmanek/Documents/Test Cases/ATTCallProtect/ATT Call Protect v1 properties.txt",
+		"/C/Users/Jeff Kalmanek/Documents/Test Cases/ATTCallProtect/ATT Call Protect v1 java.txt",
+		"/C/Users/Jeff Kalmanek/Documents/Test Cases/ATTCallProtect/ATT Call Protect v1 feature.txt",
+		"/C/Users/Jeff Kalmanek/Documents/Test Cases/ATTCallProtect/ATT Call Protect v1 XML.txt",
+		"/C/Users/Jeff Kalmanek/Documents/Test Cases/ATTCallProtect/01.11 - Verify registration of new account.txt",
+		"/C/Users/Jeff Kalmanek/Documents/Test Cases/ATTCallProtect/IntelliJ console logs for test run to report link 190926_185100",
+		"/C/Users/Jeff Kalmanek/Documents/Test Cases/ATTCallProtect/01.14 - Verify an existing user is able to Logout.txt",
+		"/C/Users/Jeff Kalmanek/Documents/Test Cases/ATTCallProtect/12.07 Incoming Call Number in Addressbook",
+		"/C/Users/Jeff Kalmanek/Documents/logs/example of BDD needs the string values and cannot use variable.txt",
+		"/C/Users/Jeff Kalmanek/Documents/logs/why does before code runs run twice.txt"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 191,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								191,
+								191
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 96.0
+	},
+	"pinned_build_system": "",
+	"project": "jsOutputExamples.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"LG v40 messaging conversation list"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
