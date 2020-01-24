@@ -21,7 +21,7 @@
 			displayName : function() {
 				document.getElementById("name").innerHTML = "My full name is " + this.firstName + " " + this.lastName;
 			},
-							displayReverseName : function() {
+			displayReverseName : function() {
 				document.getElementById("reverseName").innerHTML = "My reverse name is ".concat(this.lastName, " ", this.firstName);
 				this.firstName + " " + this.lastName;
 
@@ -44,12 +44,47 @@
 	<button type="button" onclick="displaySomething()">Try it</button>
 	<p>clicking the button does erase the rest of the document, then writes just 11, which is from the document.write below</p>
 	<button type="button" onclick="displayNumber()">Try me for base 32</button>
-<p id="base32">24 base 10 will be?</p>
+	<p id="base32">24 base 10 will be?</p>
 	<p>Never call document.write after the document has finished loading.  It will overwrite the whole document.  But I am calling it to write "11" and the rest of the document is here</p>
+
+	<h2>JavaScript Arrays</h2>
+
+	<p>This section has examples working with Arrays.  The best way to loop through an array is using a standard for loop:</p>
+
+	<p id="array demo">the array demo goes here</p>
+	<p id="array demo2">the array demo goes here</p>
+
 
 	<script>
 		person.displayName();
 		person.displayReverseName();
+		// -- Begin section Array Example scripts
+		var fruits, text, fLen, i;
+		fruits = ["Pickle", "Cucumber", "Squash", "Mango"];
+		fLen = fruits.length;
+
+		text = "<ul>";
+		for (i = 0; i < fLen; i++) {
+			text += "<li>" + fruits[i] + "</li>";
+		}
+		text += "</ul>";
+		document.getElementById("array demo").innerHTML = text;
+		// condensed function for loop - forEach()
+		var balls = ["basketball", "football", "soccerball", "pickleball"];
+		var text2 = "<ul>";
+		balls.forEach(myArrayFunction);
+		// the forEach function doesn't require the length variable, nor the increment "i" variable to be defined
+		text2 += "</ul>";
+		document.getElementById("array demo2").innerHTML = text2;
+		console.log(text);
+		console.log("and then");
+		console.log(text2);
+
+		function myArrayFunction(value) {
+			text2 += "<li>" + value + "</li>";
+		}
+
+	// -- End section Array Example scripts
 		// var x = true;
 		// document.getElementById("demo").innerHTML = x;
 		// // document.write(5 + 6);
