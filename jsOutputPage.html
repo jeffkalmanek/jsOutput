@@ -54,10 +54,45 @@
 	<p id="array demo">the array demo goes here</p>
 	<p id="array demo2">the array demo goes here</p>
 
+	<h4>displaying all the fruits together instead of a list</h4>
+	<p id="array demo3">fruits as one string goes here</p>
 
-	<script>
-		person.displayName();
-		person.displayReverseName();
+	<button type="button" onclick="addFruit('lemon')"> add a ball </button>
+	<br><br>
+
+	<!-- examples of button types
+		FYI // does not comment out html, only things in the <script> element
+		-->
+
+		<form action="/button-type"> 
+			<button type="button" onclick="alert('This button does nothing.')">Click me for no reason!</button>
+			<br><br> 
+			<label for="name">Name</label>
+			<br> 
+			<input name="name">
+			<br><br> 
+			<button type="reset">Reset the form!</button>
+			<br><br> 
+			<button type="submit" disabled>Submit (disabled)</button> 
+		</form>
+
+		<h2>unshift()</h2>
+
+		<p>The unshift() method adds new elements to the beginning of an array.</p>
+
+		<button onclick="myFunction()">Try it</button>
+
+		<p id="unshift demo"></p>
+		<p id="unshift demo2"></p>
+
+
+
+<!-- Read more: https://html.com/attributes/button-type/#ixzz6BynhafaN
+-->
+
+<script>
+	person.displayName();
+	person.displayReverseName();
 		// -- Begin section Array Example scripts
 		var fruits, text, fLen, i;
 		fruits = ["Pickle", "Cucumber", "Squash", "Mango"];
@@ -80,9 +115,27 @@
 		console.log("and then");
 		console.log(text2);
 
+		document.getElementById("array demo3").innerHTML = fruits.join(" * ");
+
 		function myArrayFunction(value) {
 			text2 += "<li>" + value + "</li>";
 		}
+		function addFruit(fruitItem) {
+			balls.push(fruitItem);
+			text2 = "<ul>";
+			balls.forEach(myArrayFunction);
+			text2 += "</ul>";
+			document.getElementById("array demo2").innerHTML = text2;
+		}
+		var myFruits = ["Banana", "Orange", "Apple", "Mango"];
+		document.getElementById("unshift demo").innerHTML = myFruits;
+
+		function myFunction() {
+			document.getElementById("unshift demo2").innerHTML = myFruits.unshift("Lemon");
+		  // fruits.unshift("Lemon");
+		  document.getElementById("unshift demo").innerHTML = myFruits;
+		}
+
 
 	// -- End section Array Example scripts
 		// var x = true;
