@@ -9,12 +9,22 @@
 			document.getElementById('demo').innerHTML = 
 			"Display Something New";
 		}
+		var myNumber = 22;
+		function displayNumber(){
+			document.getElementById("base32").innerHTML = 
+			myNumber.toString(32);
+		}
 		var person = {
 			firstName: "John",
 			lastName : "Doe",
 			id       : 5566,
 			displayName : function() {
 				document.getElementById("name").innerHTML = "My full name is " + this.firstName + " " + this.lastName;
+			},
+							displayReverseName : function() {
+				document.getElementById("reverseName").innerHTML = "My reverse name is ".concat(this.lastName, " ", this.firstName);
+				this.firstName + " " + this.lastName;
+
 			}
 		};
 	</script>
@@ -26,17 +36,20 @@
 	<h2>this is one person from the object person</h2>
 	<p id="name">my full name is fullName()</p>
 	<p>My First Paragraph, not sure why the rest won't show up</p>
+	<p id="reverseName">my full name is fullName()</p>
 
 	<p id="demo"></p>
 
 	<p>try a button</p>
 	<button type="button" onclick="displaySomething()">Try it</button>
 	<p>clicking the button does erase the rest of the document, then writes just 11, which is from the document.write below</p>
-
+	<button type="button" onclick="displayNumber()">Try me for base 32</button>
+<p id="base32">24 base 10 will be?</p>
 	<p>Never call document.write after the document has finished loading.  It will overwrite the whole document.  But I am calling it to write "11" and the rest of the document is here</p>
 
 	<script>
 		person.displayName();
+		person.displayReverseName();
 		// var x = true;
 		// document.getElementById("demo").innerHTML = x;
 		// // document.write(5 + 6);
