@@ -4,24 +4,38 @@
 	<title></title>
 </head>
 <body>
+	<div onmouseover="mOver(this)" onmouseout="mOut(this)" 
+	style="background-color:#D94A38;width:120px;height:20px;padding:40px;">
+Mouse Over Me</div>
+
+<script>
+	function mOver(obj) {
+		obj.innerHTML = "Thank You"
+	}
+	function mOut(obj) {
+		obj.innerHTML = "Do it again"
+	}
+
+</script>
+
 <button onclick="myFunction1()">Sort Alphabetically</button>
 <button onclick="myFunction2()">Sort Numerically</button>
 
 <p id="demo"></p>
 
 <script>
-var points = [40, 100, 1, 5, 25, 10];
-document.getElementById("demo").innerHTML = points;
+	var points = [40, 100, 1, 5, 25, 10];
+	document.getElementById("demo").innerHTML = points;
 
-function myFunction1() {
-  points.sort();
-  document.getElementById("demo").innerHTML = points;
-}
+	function myFunction1() {
+		points.sort();
+		document.getElementById("demo").innerHTML = points;
+	}
 
-function myFunction2() {
-  points.sort(function(a, b){return a - b});
-  document.getElementById("demo").innerHTML = points;
-}
+	function myFunction2() {
+		points.sort(function(a, b){return a - b});
+		document.getElementById("demo").innerHTML = points;
+	}
 </script>
 
 <h2>JavaScript Array.forEach()</h2>
@@ -31,14 +45,14 @@ function myFunction2() {
 <p id="demo2"></p>
 
 <script>
-var txt = "";
-var numbers = [45, 4, 9, 16, 25];
-numbers.forEach(myBIGFunction);
-document.getElementById("demo2").innerHTML = txt;
+	var txt = "";
+	var numbers = [45, 4, 9, 16, 25];
+	numbers.forEach(myBIGFunction);
+	document.getElementById("demo2").innerHTML = txt;
 
-function myBIGFunction(value, index, array) {
-  txt = txt + value + " | " + index + " | " + array + "<br>"; 
-}
+	function myBIGFunction(value, index, array) {
+		txt = txt + value + " | " + index + " | " + array + "<br>"; 
+	}
 </script>
 
 <h2>JavaScript Math - Random die roll</h2>
@@ -49,16 +63,20 @@ function myBIGFunction(value, index, array) {
 <p>Performing a list of 20 rolls of 10 sided die, 0 = 10</p>
 <P id=listDecahedron> list of 10 sided die results</P>
 <script>
-document.getElementById("demoRandom").innerHTML =
-Math.floor(Math.random() * 10);
+	document.getElementById("demoRandom").innerHTML =
+	Math.floor(Math.random() * 10);
 
-		textDie = "<ul>";
-		for (i = 0; i < 20; i++) {
-			textDie += "<li>" + Math.floor(Math.random() * 10) + "</li>";
-		}
-		textDie += "</ul>";
-		document.getElementById("listDecahedron").innerHTML = textDie;
+	textDie = "<ul>";
+	for (i = 0; i < 20; i++) {
+		textDie += "<li>" + getRndInteger(1,100) + "</li>";
+	}
+	textDie += "</ul>";
+	document.getElementById("listDecahedron").innerHTML = textDie;
 
+// generic random number from a range
+function getRndInteger(min, max) {
+	return Math.floor(Math.random() * (max - min + 1) ) + min;
+}
 
 </script>
 
