@@ -4,11 +4,51 @@
 	<title>This is my list of toDo items</title>
 </head>
 <body>
-	<li>get catfood</li>
+	<li>get catfood - done</li>
 	<li>eat lunch - done</li>
 	<li>get Sam - done</li>
 	<li>continue javascript tutorial</li>
+	<li>need a new list</li>
 	<li>now I get end</li>
+	<ol> items to add to the MacOS Automation build
+		<li>need to install application 'cmake' although it is clear in the error step, and the troubleshooting, could just be an install item</li>
+		<li>following the instructions from this link, as the Appium Instructions leave out what I think are iOS Developer installs
+		<a href="https://medium.com/@ivantay2003/setting-up-appium-in-os-x-ecd9e7108a9c">setting up Appium in MacOS Catalina</a></li>
+		<li>finding that there is an issue with 'applesimutils' in xcode, so skipping this optional install from the medium.com link</li>
+		<li>The iFuse install had a lot of messages that says MacOS already has these installed.  Leaving it as is, and moving on</li>
+		<li>mjpeg was easy</li>
+		<li>trying a code paste on next item when install ffmpeg</li>
+		<li> Caveats
+			==> unbound
+			To have launchd start unbound now and restart at startup:
+			sudo brew services start unbound
+			==> tesseract
+			This formula contains only the "eng", "osd", and "snum" language data files.
+			If you need any other supported languages, run `brew install tesseract-lang`.
+			➜  ~ sudo brew services start unbound
+			Password:
+			==> Tapping homebrew/services
+			Cloning into '/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services'...
+			remote: Enumerating objects: 17, done.
+			remote: Counting objects: 100% (17/17), done.
+			remote: Compressing objects: 100% (15/15), done.
+			remote: Total 708 (delta 2), reused 10 (delta 1), pack-reused 691
+			Receiving objects: 100% (708/708), 195.30 KiB | 11.49 MiB/s, done.
+			Resolving deltas: 100% (275/275), done.
+			Tapped 1 command (40 files, 269.7KB).
+			Warning: Taking root:admin ownership of some unbound paths:
+			/usr/local/Cellar/unbound/1.10.0/sbin
+			/usr/local/Cellar/unbound/1.10.0/sbin/unbound
+			/usr/local/opt/unbound
+			/usr/local/opt/unbound/sbin
+			/usr/local/var/homebrew/linked/unbound
+			This will require manual removal of these paths using `sudo rm` on
+			brew upgrade/reinstall/uninstall.
+			==> Successfully started `unbound` (label: homebrew.mxcl.unbound)
+		</li>
+		<li>manual fix of 'unbound' may be needed later</li>
+		<li></li>
+	</ol>
 	<p>here is a link</p>
 	<a href="https://www.google.com/search?q=how+do+I+skip+to+the+end+of+a+line+in+sublime&rlz=1C1SQJL_enUS853US853&oq=how+do+I+skip+to+the+end+of+a+line+in+sublime&aqs=chrome..69i57.10071j0j4&sourceid=chrome&ie=UTF-8#kpvalbx=_VP0pXvmvItDC-gSI1a3YBg26">this link shows how to make a list then add the tags in the correct position</a>
 	<p>another note is that to start a raw repository in gitHub first with the readme.md and then clone that "empty" repository into sublime to get things started.  No easy path to go the opposite direction, probably could figure it out in terminal but why?  </p>
